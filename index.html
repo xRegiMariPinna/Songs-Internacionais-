@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Play Music</title>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body id="fundo">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+  <header>
+    <br>
+    <h1>Play music</h1>
+  </header>
+
+  <main>
+    <br>
+    <img src="album/Arctic Monkeys - I Wanna Be Yours.png" width="400px" id="musica">
+    <br>
+    <label id="nomeAlbum">Arctic Monkeys - I Wanna Be Yours</label>
+    <br><br>
+    <button class="botaoMusica"  id="btnprevius" onclick="anterior()"><img src="anterior.png" alt=""></button>
+    <button class="botaoMusica" id="btnplay" onclick="playMusic()"><img src="play.png" alt=""></button>
+    <button class="botaoMusica"  id="next" onclick="posterior()"><img src="posterior.png" alt=""></button>
+    <br>
+    <button class="botaoMusica"  id="btnpause" onclick="pauseMusic()"><img src="pause.png" alt=""></button>
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>

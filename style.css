@@ -1,0 +1,15 @@
+#fundo{
+  background-color: black;
+  text-align: center;
+  color:rgb(194, 185, 138);
+}
+
+.botaoMusica img{
+  width: 100%;
+}
+
+.botaoMusica{
+  width: 100px;
+  background-color: white;
+  border-radius: 1200px;
+}
